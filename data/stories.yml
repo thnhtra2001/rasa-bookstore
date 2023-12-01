@@ -1,0 +1,95 @@
+version: "3.1"
+
+stories:
+# chao hoi - chao hoi
+- story: chao hoi
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: hoi_bot
+  - action: utter_hoi_bot
+  - intent: tam_biet
+  - action: utter_tam_biet
+### chao hoi - tro giup - tim kiem  bang singapore - huong dan - bye
+- story: hoi_gau_truc_hoa_hoa
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: search
+  - action: utter_search
+  - intent: hoi_gau_truc_hoa_hoa
+  - action: utter_hoi_gau_truc_hoa_hoa
+  - intent: ok
+  - action: utter_ok
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+### chao hoi - tro giup - tim kiem trau ba dai loan - huong dan - bye
+- story: hoi_cuoi_thu_tro_tan_no_ro
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: search
+  - action: utter_search
+  - intent: hoi_cuoi_thu_tro_tan_no_ro
+  - action: utter_hoi_cuoi_thu_tro_tan_no_ro
+  - intent: ok
+  - action: utter_ok
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+### chao hoi - tro giup - tim kiem cay kim ngan - huong dan - bye
+- story: hoi_ton_trong_cong_viec_bao_nhieu_di_xa_bay_nhieu
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: search
+  - action: utter_search
+  - intent: hoi_ton_trong_cong_viec_bao_nhieu_di_xa_bay_nhieu
+  - action: utter_hoi_ton_trong_cong_viec_bao_nhieu_di_xa_bay_nhieu
+  - intent: ok
+  - action: utter_ok
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+### chao hoi - tro giup - tim kiem cay kim ngan xanh - huong dan - bye
+- story: hoi_cong_chua_ngu_trong_lau_dai_quy
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: search
+  - action: utter_search
+  - intent: hoi_cong_chua_ngu_trong_lau_dai_quy
+  - action: utter_hoi_cong_chua_ngu_trong_lau_dai_quy
+  - intent: ok
+  - action: utter_ok
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+### chao hoi - tro giup - tim kiem cay trau ba nam mi - huong dan - bye
+- story: hoi_thu_gui_con_trai
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: search
+  - action: utter_search
+  - intent: hoi_thu_gui_con_trai
+  - action: utter_hoi_thu_gui_con_trai
+  - intent: ok
+  - action: utter_ok
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+### chao hoi - tro giup - tim kiem cay trau ba thanh xuan - huong dan - bye
+- story: hoi_cac_loai_cay_viet_nam
+  steps:
+  - intent: chao_hoi
+  - action: utter_chao_hoi
+  - intent: search
+  - action: utter_search
+  - intent: hoi_cac_loai_cay_viet_nam
+  - action: utter_hoi_cac_loai_cay_viet_nam
+  - intent: ok
+  - action: utter_ok
+  - intent: tam_biet
+  - action: utter_tam_biet

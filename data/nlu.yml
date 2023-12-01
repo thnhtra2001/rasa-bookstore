@@ -1,0 +1,139 @@
+version: "3.1"
+
+nlu:
+# chao hoi
+- intent: chao_hoi
+  examples: |
+    - hello
+    - xin chào
+    - chào bạn
+    - chào
+    - bạn ơi
+    - bạn có thể giúp tôi được không
+    - chào chatbot
+    - hi
+    - halo
+    - chào cửa hàng
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - chao xìn
+    - hey
+    - xin chào cửa hàng
+    - alo
+
+# tạm biệt :<
+- intent: tam_biet
+  examples: |
+    - tạm biệt
+    - bái bai
+    - bai
+    - hẹn gặp lại sau
+    - bye
+    - xin tạm biệt
+    - bye bye
+    - bye cửa hàng
+    - tạm biệt bạn
+    - hẹn gặp lại sau
+## vâng :))
+- intent: dong_y
+  examples: |
+    - vâng
+    - yes
+    - tất nhiên
+    - tuyệt
+    - tốt
+    - hợp lí
+# không mua :v
+- intent: khong_dong_y
+  examples: |
+    - không
+    - không bao giờ
+    - tôi không nghĩ thế
+    - không cám ơn
+    - tôi chưa muốn mua
+    - tôi không mua
+    - tôi chưa mua
+# tâm trạng khách ok :)
+- intent: ok
+  examples: |
+    - vâng
+    - ok
+    - tuyệt
+    - tuyệt vời
+    - good
+    - tôi mua sản phẩm này
+    - nó thật tuyệt đẹp
+    - tốt lắm
+    - sản phẩm rất tốt
+# tâm trạng not ok :v
+- intent: khong_vui
+  examples: |
+    - tôi buồn
+    - tâm trạng tôi không tốt
+    - sad
+    - không ổn
+# tôi muốn tìm kiếm thông tin
+- intent: search
+  examples: |
+    - tôi muốn đặt hàng
+    - tôi muốn hỗ trợ
+    - tôi cần trợ giúp
+    - bạn có thể giúp tôi được không
+    - cần hỗ trợ
+    - đặt hàng
+# hỏi bot
+- intent: hoi_bot
+  examples: |
+    - bạn là bot à
+    - bạn là con người à
+    - tôi đang nói chuyện với ai
+    - bạn có thể giúp tôi được không
+# gấu trúc hoa hoa
+- intent: hoi_gau_truc_hoa_hoa
+  examples: |
+    - hãy cho tôi thông tin về gấu trúc hoa hoa
+    - cửa hàng có bán sách gấu trúc hoa hoa không
+    - tôi muốn mua sách gấu trúc hoa hoa
+    - bạn có thể cung cấp cho tôi thông tin về sách gấu trúc hoa hoa không
+    - gấu trúc hoa hoa
+# cuối thu tro tàn nở rộ
+- intent: hoi_cuoi_thu_tro_tan_no_ro
+  examples: |
+    - hãy cho tôi thông tin về sách cuối thu tro tàn nở rộ
+    - cửa hàng có bán sách cuối thu tro tàn nở rộ không
+    - tôi muốn mua sách cuối thu tro tàn nở rộ
+    - bạn có thể cung cấp cho tôi thông tin về sách cuối thu tro tàn nở rộ
+    - cuối thu tro tàn nở rộ
+# tôn trọng công việc bao nhiêu đi xa bấy nhiêu
+- intent: hoi_ton_trong_cong_viec_bao_nhieu_di_xa_bay_nhieu
+  examples: |
+    - hãy cho tôi thông tin về sách tôn trọng công việc bao nhiêu đi xa bấy nhiêu
+    - cửa hàng có bán sách tôn trọng công việc bao nhiêu đi xa bấy nhiêu
+    - tôi muốn mua sách tôn trọng công việc bao nhiêu đi xa bấy nhiêu
+    - bạn có thể cung cấp cho tôi thông tin về sách tôn trọng công việc bao nhiêu đi xa bấy nhiêu
+    - tôn trọng công việc bao nhiêu đi xa bấy nhiêu  
+# hỏi công chúa ngủ trong lâu đài quỷ
+- intent: hoi_cong_chua_ngu_trong_lau_dai_quy
+  examples: |
+    - hãy cho tôi thông tin về sách công chúa ngủ trong lâu đài quỷ
+    - cửa hàng có bán sách công chúa ngủ trong lâu đài quỷ không
+    - tôi muốn mua công chúa ngủ trong lâu đài quỷ
+    - bạn có thể cung cấp cho tôi thông tin về sách công chúa ngủ trong lâu đài quỷ không
+    - công chúa ngủ trong lâu đài quỷ
+# hỏi thư gửi con trai
+- intent: hoi_thu_gui_con_trai
+  examples: |
+    - hãy cho tôi thông tin về sách thư gửi con trai
+    - cửa hàng có bán sách thư gửi con trai
+    - tôi muốn mua sách thư gửi con trai
+    - bạn có thể cung cấp cho tôi thông tin về thư gửi con trai
+    - thư gửi con trai
+# hỏi các loại cây việt nam
+- intent: hoi_cac_loai_cay_viet_nam
+  examples: |
+    - hãy cho tôi thông tin về sách các loại cây việt nam
+    - cửa hàng có bán sách các loại cây việt nam không
+    - tôi muốn mua sách các loại cây việt nam
+    - bạn có thể cung cấp cho tôi thông tin về sách các loại cây việt nam
+    - các loại cây việt nam

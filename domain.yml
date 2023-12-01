@@ -1,0 +1,82 @@
+version: "3.1"
+
+intents:
+  - chao_hoi
+  - tam_biet
+  - dong_y
+  - khong_dong_y
+  - ok
+  - khong_vui
+  - hoi_bot
+  - search
+  #1
+  - hoi_gau_truc_hoa_hoa
+  #2
+  - hoi_cuoi_thu_tro_tan_no_ro
+  #3
+  - hoi_ton_trong_cong_viec_bao_nhieu_di_xa_bay_nhieu
+  #4
+  - hoi_cong_chua_ngu_trong_lau_dai_quy
+  #5
+  - hoi_thu_gui_con_trai
+  #6
+  - hoi_cac_loai_cay_viet_nam
+
+responses:
+  utter_chao_hoi:
+  - text: "Xin chào! Tôi là RASA, tôi có thể giúp gì cho bạn không?"
+  - text: "Hey! Xin chào"
+  - text: "Chào! Tôi là AI của cửa hàng, tôi có thể giúp gì được cho bạn?"
+  - text: "Xin chào! Tôi có thể giúp gì cho bạn không?"
+  - text: "Xin chào! Bạn cần hỗ trợ gì?"
+
+  utter_khong_vui:
+  - text: "Chia buồn cùng bạn !"
+
+  utter_search:
+  - text: "Vâng ! Mời bạn nhập tên cây cảnh muốn tìm. Có các loại sách như: gấu trúc hoa hoa, cuối thu tro tàn nở rộ, tôn trọng công việc bao nhiêu đi xa bấy nhiêu, công chúa ngủ trong lâu đài quỷ, thư gửi con trai, các loại cây việt nam, ..."
+
+  utter_ok:
+  - text: "Tuyệt! Bạn có thể thêm vào giỏ hàng để đặt hàng hoặc đặt hàng trực tiếp ở trang chi tiết sản phẩm ^^"
+
+  utter_tam_biet:
+  - text: "Bye"
+  - text: "Tạm biệt! Chúc bạn một ngày tốt lành"
+  - text: "Hẹn gặp lại sau"
+  - text: "Bái bai"
+  - text: "Tạm biệt! Hẹn gặp lại bạn sau"
+
+  utter_hoi_bot:
+  - text: "Tôi là bot RASA, được code bởi Trần Thanh Trà."
+
+  utter_hoi_gau_truc_hoa_hoa:
+  - text: "Tên cô nhóc gấu trúc ấy là Hòa Hoa, còn được biết đến nhiều hơn với nghệ danh Hoa Hoa, Cò Le.Ngoại hình xinh xắn, đáng yêu.Tính cách lạc quan, vui vẻ.Đối xử với mọi người điềm đạm, bao dung...Nhưng trên hết, thái độ sống thong dong và yêu đời chính là năng lượng tích cực mà Hoa Hoa mang lại cho tất cả chúng ta.Tưởng Lâm được biết đến là tác giả nổi tiếng chuyên viết về gấu trúc. Với Gấu Trúc Hoa Hoa, chúng ta không chỉ được đọc những mẩu chuyện nhỏ xoay quanh cô minh tinh Cò Le và gia đình nổi tiếng của cô bé, mà còn tìm thấy những tri thức mới lạ, những sự kiện đáng nhớ về gia tộc gấu trúc lớn. Tất cả đều được truyền tải một cách vô cùng sinh động và thu hút.Tại đây, chúng ta tìm thấy một Hoa Hoa mà chúng ta yêu mến, cũng thấy được dáng vẻ cuộc sống mà chúng ta luôn hướng về."
+  utter_hoi_cuoi_thu_tro_tan_no_ro:
+  - text: "Tại thị trấn có ngọn núi luôn lấp ló tàn tro, cuộc sống thường nhật của Suzu (32 tuổi, sợ giao tiếp, thích thuốc lá, rượu và mèo) chỉ là chuỗi ngày bình lặng không có chút khởi sắc mà chính bản thân anh cũng không tính thay đổi.Ấy là cho đến khi Yutaka - đứa cháu tới từ Tokyo của đôi vợ chồng vốn là khách hàng quen của Suzu xuất hiện và làm đảo lộn cuộc sống thường nhật của anh. Câu chuyện tình yêu thuần khiết ấm áp, pha lẫn chút xót xa mà vẫn ngọt ngào e ấp sẽ được dệt bởi hai người đàn ông trưởng thành nhưng vụng về: Suzu, người từ chối giao tiếp với người khác, và Yutaka, người đã vượt qua rào chắn trái tim của người kia"
+  utter_hoi_ton_trong_cong_viec_bao_nhieu_di_xa_bay_nhieu:
+  - text: "Công việc - là nơi để chúng ta thể hiện giá trị của bản thân. Công sở - là môi trường xã hội thứ hai sau trường học. Chăm chỉ, nỗ lực là điều kiện cần, nhưng chưa phải điều kiện đủ để thành công chốn công sở. Năng lực không phải yếu tố duy nhất chắp cánh cho tương lai của bạn, mà chính tư duy, thái độ, ý thức, tầm nhìn mới giúp bạn đi xa hơn, bay cao hơn. Sự tôn trọng của bạn với công việc, những ước nguyện ban đầu của bạn khi bước vào nghề, lập trường và xuất phát điểm của bạn mới quyết định bạn đi được bao xa. Cuốn sách này cho bạn thấy hai mặt của chốn công sở, tặng cho bạn lối tư duy để né tránh các cạm bẫy trong cuộc sống, giúp bạn tiến bước giữa dòng đời đầy rầy hiểm nguy.Chọn đúng đường đua, học cách tư duy độc lập, trở thành phiên bản tốt hơn của chính mình"
+  utter_hoi_cong_chua_ngu_trong_lau_dai_quy:
+  - text: "Ta đây… đã bắt nhầm Công chúa rồi sao…Nàng Công chúa loài người đã bị Ma vương bắt đi khiến ai nấy đều giận dữ, buồn thương khôn nguôi, và Anh hùng đã quyết chí lên đường giải cứu nàng! Lúc đó Syalis - nàng Công chúa bị giam cầm chợt nghĩ…Lạnh quá… Muốn ấm hơn để ngủ cho ngon cơ.Quần lót len chống lạnh cực tốt! Cả chiếc chăn mới làm từ cánh lông vũ (của Harpy) cũng rất hợp giường mới!Mời các bạn đón đọc tập 3 của loạt truyện hài hước về nàng Công chúa con tin cực kì vô tư và thích ngủ!"  
+  utter_hoi_thu_gui_con_trai:
+  - text: "Thư Gởi Con Trai - Các bạn nhỏ đọc để cảm nhận được tình yêu thương vô bờ mà bố mẹ dành cho mình, để học cách nghĩ khác đi trước khi đòi mua một món đồ đắt tiền để khoác lên mình cho bằng bạn, bằng bè…"  
+  utter_hoi_cac_loai_cay_viet_nam:
+  - text: "Cuốn sách Các loài cây Việt Nam là một công trình khoa học được biên soạn vô cùng công phu, ra đời với mục đích cung cấp kiến thức về nền thực vật học vô cùng phong phú của đất nước Việt Nam chúng ta.Tuy là một công trình khoa học, nhưng cuốn sách này lại không hề khô cứng hay khó hiểu, bởi chủ biên Võ Văn Chi cho biết ông thực hiện cuốn sách này với móng muốn mang đến những kiến thức bổ ích cho các bạn trẻ và những người ở ngoài giới chuyên môn, từ đó truyền đi thông điệp về bảo vệ những nguồn tài nguyên đáng quý của đất nước."  
+  utter_unclear:
+  - text: "Xin lỗi! Tôi chưa hiểu ý của bạn"
+
+actions:
+  - utter_chao_hoi
+  - utter_khong_vui
+  - utter_tuyet_voi
+  - utter_tam_biet
+  - utter_hoi_bot
+  - utter_hoi_gau_truc_hoa_hoa
+  - utter_hoi_cuoi_thu_tro_tan_no_ro
+  - utter_hoi_ton_trong_cong_viec_bao_nhieu_di_xa_bay_nhieu
+  - utter_hoi_cong_chua_ngu_trong_lau_dai_quy
+  - utter_hoi_thu_gui_con_trai
+  - utter_hoi_cac_loai_cay_viet_nam
+  - utter_unclear
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

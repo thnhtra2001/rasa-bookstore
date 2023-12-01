@@ -1,0 +1,13 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: tam_biet
+  - action: utter_tam_biet
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: hoi_bot
+  - action: utter_hoi_bot
